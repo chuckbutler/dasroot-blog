@@ -3,7 +3,7 @@ category: interview
 date: 2015-11-16T16:30:36-05:00
 self_hosted: null
 tags:
-  - charming
+  - charm-authoring
   - nodejs
   - juju
 title: Charming with NodeJS layers interview

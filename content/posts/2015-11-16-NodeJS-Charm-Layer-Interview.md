@@ -12,6 +12,7 @@ tags:
   - juju
   - planet
 title: NodeJS Charm Layer Interview with Adam Stokes
+image: /images/2015/nov/stokes-interview.png
 ---
 
 In this interview we will catch up with Adam Stokes, a lead at Canonical who
