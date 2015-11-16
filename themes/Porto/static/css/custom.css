@@ -1,0 +1,16 @@
+/* Add here all your CSS customizations */
+
+.talk-list li{
+  list-style: none;
+  padding-bottom: 10px;
+}
+
+.video-content {
+  margin-top: 20px;
+}
+
+/* For the love of god, the images... */
+
+.post img {
+  max-width: 100%;
+}

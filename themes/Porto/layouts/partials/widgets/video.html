@@ -1,0 +1,29 @@
+<div class="row">
+  <div class="col-md-12">
+
+    <div class="post-meta">
+
+    </div>
+  </div>
+  <div class="col-md-7">
+    {{ if .Params.youtube }}
+      <iframe width="560" height="315" src="{{ .Params.youtube }}" frameborder="0" allowfullscreen></iframe>
+    {{ end }}
+  </div>
+  <div class="col-md-5">
+    <h4> <a href="{{ .Permalink }}">{{ .Title }}</a></h4>
+    <div class="post-meta">
+      <span><i class="fa fa-calendar"></i> {{ .Date.Format "Jan 2, 2006" }}</span><br/>
+    </div>
+    {{ .Content }}
+  </div>
+  {{ if .Params.tags }}
+  <div class="col-md-7">
+    <div class="post-meta">
+      {{ if .Params.category }}<strong>Posted in:</strong> {{ .Params.category }} </span> <br/> {{ end }}
+      {{ if .Params.time }}<i class="fa fa-clock-o"></i> {{ .Params.time }} <br />{{ end }}
+      <span><i class="fa fa-tags"></i> {{ delimit .Params.tags ", " }} </span>
+    </div>
+  </div>
+  {{ end }}
+</div>

@@ -1,0 +1,52 @@
+baseurl: http://dasroot.net/
+languageCode: en-us
+title: Chuck@Home
+contentdir: content
+builddrafts: true
+canonifyurls: true
+pluralizeListTitles: true
+publishdir: "public"
+pygmentsStyle: "monokai"
+watch: true
+theme: porto
+MetaDataFormat: yaml
+
+taxonomies:
+  category: categories
+  tag: tags
+
+blackfriday:
+  fractions: true
+  plainIdAnchors: true
+
+params:
+  GOOGLE_ANALYTICS: 1234
+  Tagline: Juju Deploy Happiness
+  TwitterID: lazypower
+  TwitterWidgetID: 551646827624554496
+
+
+menu:
+  main:
+    - Name: "Videos"
+      URL: "/video"
+    - Name: "Talks"
+      URL: "/talk"
+    - Name: "About"
+      URL: "/about"
+    - Name: "Blog"
+      URL: "/posts"
+  social:
+    - Name: twitter
+      URL: https://twitter.com/lazypower
+    - Name: linkedin
+      URL: http://blog.dasroot.net/www.linkedin.com/pub/charles-butler/28/748/74/
+    - Name: googleplus
+      URL: https://plus.google.com/+CharlesButlertheNinja/
+    - Name: reddit
+      URL: http://www.reddit.com/user/lazypower/
+    - Name: github
+      URL: http://www.github.com/chuckbutler
+  callout:
+    - Name: "My GPG Key"
+      URL: https://keybase.io/lazypower

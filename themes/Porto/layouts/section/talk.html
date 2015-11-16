@@ -1,0 +1,72 @@
+{{ partial "page-head.html" . }}
+{{ partial "nav.html" . }}
+<div role="main" class="main">
+    {{ partial "page-top.html" . }}
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+              <section class="timeline">
+                <div class="timeline-body">
+                  <div class="timeline-date">
+                    <h3><strong>Schedule</strong></h3>
+                  </div>
+                  {{ range $i, $e := .Data.Pages.ByPublishDate }}
+                  <article class="timeline-box {{ if (not (modBool $i 2)) }} right {{ else }} left {{ end}} post post-medium">
+                    <div class="row">
+                      {{ if .Params.images }}
+                      <div class="col-md-12">
+                        <div class="post-image">
+                          <div class="owl-carousel" data-plugin-options='{"items":1}'>
+                            <div>
+                              {{ range .Params.images }}
+                              <div class="img-thumbnail">
+                                <img class="img-responsive" src="{{ . }}" alt="">
+                              </div>
+                              {{ end }}
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      {{ end }}
+                    </div>
+                    <div class="row">
+                      <div class="col-md-12">
+                        <div class="post-content">
+                          <h4><a href="{{.Permalink}}">{{ .Title }}</a></h4>
+                          <div class="post-meta">
+                            <span><i class="fa fa-calendar"></i> {{ .Date.Format "Jan 2, 2006" }}</span><br>
+                          </div>
+                          <p>{{.Summary }}</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-12">
+                        <div class="post-meta">
+                          {{ if .Params.tags }}
+                          <span><i class="fa fa-tag"></i> {{ delimit .Params.tags ", " }} </span>
+                          {{ end }}
+                          {{ if .Params.location }}
+                          <span><i class="fa fa-map-marker"></i> {{  .Params.location }}</span>
+                          {{ end }}
+                          {{ if .Params.conference }}
+                          <span><i class="fa fa-users"></i> {{ .Params.conference }} </span>
+                          {{ end }}
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+											<div class="col-md-12">
+												<a href="{{ .Permalink }}" class="btn btn-xs btn-primary pull-right">Read more...</a>
+											</div>
+										</div>
+                  </article>
+                  {{ end }}
+                </div>
+              </section>
+            </div>
+        </div>
+    </div>
+</div>
+{{ partial "footer.html" . }}
+{{partial "page-foot.html" . }}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Basic -->
+        <meta charset="utf-8">
+        <title>{{ .Title }}  {{ if .Site.Params.Tagline }}| {{ .Site.Params.Tagline }} {{ end }}</title>
+        <!-- feed autodiscovery -->
+        <!-- <link rel="alternate" type="application/rss+xml" title="Atom feed for blog.dasroot.net" href="/feeds/all.atom.xml"> -->
+        <!-- Mobile Metas -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Web Fonts  -->
+        <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800%7CShadows+Into+Light" rel="stylesheet" type="text/css">
+        <!-- Vendor CSS -->
+        <link rel="stylesheet" href="{{ .Site.BaseURL }}/vendor/bootstrap/bootstrap.css">
+        <link rel="stylesheet" href="{{ .Site.BaseURL }}/vendor/fontawesome/css/font-awesome.css">
+        <link rel="stylesheet" href="{{ .Site.BaseURL }}/vendor/owlcarousel/owl.carousel.css" media="screen">
+        <link rel="stylesheet" href="{{ .Site.BaseURL }}/vendor/owlcarousel/owl.theme.css" media="screen">
+        <link rel="stylesheet" href="{{ .Site.BaseURL }}/vendor/magnific-popup/magnific-popup.css" media="screen">
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
+        <link rel="stylesheet" href="{{ .Site.BaseURL }}/vendor/github-activity/github-activity-0.1.0.min.css">
+
+        <!-- Theme CSS -->
+        <link rel="stylesheet" href="{{ .Site.BaseURL }}/css/theme.css">
+        <link rel="stylesheet" href="{{ .Site.BaseURL }}/css/theme-elements.css">
+        <link rel="stylesheet" href="{{ .Site.BaseURL }}/css/theme-blog.css">
+        <link rel="stylesheet" href="{{ .Site.BaseURL }}/css/theme-shop.css">
+        <link rel="stylesheet" href="{{ .Site.BaseURL }}/css/theme-animate.css">
+
+        <!-- Skin CSS -->
+        <link rel="stylesheet" href="{{ .Site.BaseURL }}/css/skins/orange.css">
+
+        <!-- Theme Custom CSS -->
+        <link rel="stylesheet" href="{{ .Site.BaseURL }}/css/custom.css">
+
+        <!-- Head Libs -->
+        <script src="{{ .Site.BaseURL }}/vendor/modernizr/modernizr.js"></script>
+        <script src="{{ .Site.BaseURL }}/vendor/jquery/jquery.js"></script>
+
+
+        <!--[if IE]>
+            <link rel="stylesheet" href="{{ .Site.BaseURL }}/theme/css/ie.css">
+        <![endif]-->
+
+        <!--[if lte IE 8]>
+            <script src="{{ .Site.BaseURL }}/theme/vendor/respond/respond.js"></script>
+            <script src="{{ .Site.BaseURL }}/theme/vendor/excanvas/excanvas.js"></script>
+        ![endif]-->
+    </head>
+    <body>
+        <div class="body">

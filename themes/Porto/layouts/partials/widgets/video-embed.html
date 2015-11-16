@@ -1,0 +1,17 @@
+<div class="row">
+  <div class="col-md-12">
+    {{ if .Params.youtube }}
+      <iframe width="560" height="315" src="{{ .Params.youtube }}" frameborder="0" allowfullscreen></iframe>
+    {{ end }}
+  </div>
+
+  {{ if .Params.tags }}
+  <div class="col-md-12">
+    <div class="post-meta">
+      {{ if .Params.category }}<strong>Posted in:</strong> {{ .Params.category }} </span> {{ end }}
+      {{ if .Params.time }}<i class="fa fa-clock-o"></i> {{ .Params.time }} {{ end }}
+      <a href="{{ .Permalink }}"><i class="fa fa-external-link"></i></a>
+    </div>
+  </div>
+  {{ end }}
+</div>

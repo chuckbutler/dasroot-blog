@@ -1,0 +1,53 @@
+{{ partial "page-head.html" . }}
+    <body>
+        <div class="body">
+           {{ partial "nav.html" . }}
+            <div role="main" class="main">
+                {{ partial "page-top.html" . }}
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                          {{ if .Params.youtube }}
+                          <iframe width="560" height="315" src="{{ .Params.youtube }}" frameborder="0" allowfullscreen></iframe>
+                          {{ end }}
+                        </div>
+                        <div class="col-md-12">
+                          <h1>{{ .Title }}</h1>
+                          <hr/>
+                          <div class="post-meta col-md-6">
+                            <i class="fa fa-calendar"></i> <strong>When:</strong> {{ .Date.Format "Jan 2, 2006" }}<br/>
+                            <span><i class="fa fa-tags"></i> {{ delimit .Params.tags ", " }} </span>
+                          </div>
+                          <div class="post-meta col-md-6">
+                            {{ if .Params.category }}<strong>Posted in:</strong> {{ .Params.category }} </span> <br/> {{ end }}
+                            {{ if .Params.time }}<i class="fa fa-clock-o"></i> {{ .Params.time }} <br />{{ end }}
+                          </div>
+
+                          <div class="video-content col-md-12">
+                            {{ $postid := .Params.post_id }}
+
+                            <h4> Referenced in:</h4>
+                            {{ range where .Site.Pages.ByDate "Section" "posts" }}
+                            <ul>
+                              {{ if eq .Params.post_id $postid }}
+                                <li><a href="{{.Permalink}}">{{.Title}}</a></li>
+                              {{ end }}
+                            </ul>
+                            {{ end }}
+
+                          </div>
+
+                          <div class="video-content col-md-12">
+                            {{ .Content }}
+                          </div>
+                        </div>
+                        <!-- Sidebar -->
+                        <!-- /Sidebar -->
+                    </div>
+                </div>
+            </div>
+        {{ partial "footer.html" . }}
+        </div>
+{{partial "page-foot.html" . }}
+    </body>
+</html>

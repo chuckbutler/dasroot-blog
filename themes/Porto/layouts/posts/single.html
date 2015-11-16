@@ -1,0 +1,52 @@
+{{ partial "page-head.html" . }}
+{{ partial "nav.html" . }}
+{{ partial "page-top.html" . }}
+    <div class="container">
+        <div class="row">
+          <div class="col-md-9">
+
+            <div class="blog-posts single-post">
+                <article class="post post-large blog-single-post">
+                    {{ if .Params.image }}
+                    <div class="post-image">
+                        <img class="img-responsive" src="{{ .Params.image }}" >
+                    </div>
+                    {{ end }}
+                    {{ if .Params.imagecaption }}
+                    <div class="post-image-credit"><small><strong>Note: </strong>{{ .Params.imagecaption }}</small></div>
+                    {{ end }}
+                    
+                    {{ $postid := .Params.post_id }}
+
+                    {{ range where .Site.Pages.ByDate "Section" "video" }}
+                      {{ if eq .Params.post_id $postid }}
+                        {{ partial "widgets/video-embed.html" .}}
+                      {{ end }}
+                    {{ end }}
+
+                    <div class="post-title">
+                      <h2> {{ .Title }} </h2>
+                    </div>
+                    <div class="post-date">
+                        <span class="day">{{ .Date.Format "02" }}</span>
+                        <span class="month">{{ .Date.Format "Jan" }}</span>
+                    </div>
+                    <div class="post-content">
+                      <div class="post-meta">
+                          <span><i class="fa fa-date"></i> <strong>On:</strong> {{ .Date.Format "Mon January 01, 2001" }}</span>
+                          <span><i class="fa fa-tags"></i> {{ delimit .Params.tags ", " }} </span>
+                      </div>
+                        {{ .Content }}
+                    </div>
+                </article>
+            </div>
+
+
+          </div>
+          <div class="col-md-3">
+            {{ partial "sidebar.html" . }}
+          </div>
+        </div>
+    </div>
+{{ partial "footer.html" . }}
+{{partial "page-foot.html" . }}

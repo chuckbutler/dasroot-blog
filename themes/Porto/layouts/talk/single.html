@@ -1,0 +1,43 @@
+{{ partial "page-head.html" . }}
+    <body>
+        <div class="body">
+           {{ partial "nav.html" . }}
+            <div role="main" class="main">
+                {{ partial "page-top.html" . }}
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-9">
+
+                        <h1>{{ .Title }}</h1>
+                        <small>
+                          <i class="fa fa-clock-o"></i> <strong>When:</strong> {{ .Date.Format "Jan 2, 2006" }}
+                          <i class="fa fa-map-marker"></i> <strong>Where:</strong> {{ .Params.location }}
+                          <br/><i class="fa fa-users"></i> <strong>In Association With:</strong> {{ .Params.conference }}
+                        </small>
+                        <hr/>
+                        {{ .Content }}
+
+                        {{ if .Params.video }}
+                        <h3> Video </h3>
+                          {{ .Params.video | safeHTML}}
+                        <hr />
+                        {{ end }}
+
+                        {{ if .Params.slides }}
+                        <h3> Slides </h3>
+                          {{ .Params.slides| safeHTML}}
+                        <hr />
+                        {{ end }}
+
+                        </div>
+                        <!-- Sidebar -->
+
+                        <!-- /Sidebar -->
+                    </div>
+                </div>
+            </div>
+        {{ partial "footer.html" . }}
+        </div>
+{{partial "page-foot.html" . }}
+    </body>
+</html>

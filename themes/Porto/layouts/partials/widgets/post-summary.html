@@ -1,0 +1,23 @@
+<article class="post post-large">
+    <div class="post-image single">
+        <a href="{{.Permalink}}">
+        {{ if .Params.image }}
+            <img class="img-thumbnail" src="{{ .Params.image}}" {{ if .Params.imagecaption }} alt="{{.Params.imagecaption}}" {{ end }}>
+        {{ end }}
+        </a>
+    </div>
+    <div class="post-date">
+        <span class="day">{{ .Date.Format "2" }}</span>
+        <span class="month">{{ .Date.Format "Jan" }}</span>
+    </div>
+    <div class="post-content">
+        <h2><a href="{{.Permalink}}">{{.Title}}</a></h2>
+        <p>{{.Summary}}</p>
+        <div class="post-meta">
+          {{ if .Params.tags }}
+          <span><i class="fa fa-tags"></i> {{ delimit .Params.tags ", " }} </span>
+          {{ end }}
+            <a href="{{ .Permalink }}" class="btn btn-xs btn-primary pull-right">Read more...</a>
+        </div>
+    </div>
+</article>
