@@ -24,6 +24,7 @@ params:
   Tagline: Juju Deploy Happiness
   TwitterID: lazypower
   TwitterWidgetID: 551646827624554496
+  NumRelatedPosts: 3
 
 
 menu:
