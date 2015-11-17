@@ -1,5 +1,16 @@
-<ul class="nav nav-list primary push-bottom">
 
-    <li><a href="{{ .Site.BaseURL }}/ related_post.url "> related_post.title </a></li>
 
+{{ range where (where .Site.Pages.ByDate.Reverse "Type" "posts") "Date.Unix" "<" .Date.Unix }}
+  {{ if and (lt ($.Scratch.Get "related_matches") $.Site.Params.NumRelatedPosts) (ge (intersect $.Params.tags .Params.tags | len) 2) }}
+    {{ if not ($.Scratch.Get "related_matches") }}
+    <h4>Related Posts</h4>
+    <ul class="nav nav-list primary push-bottom">
+    {{end}}
+  <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+  {{ $.Scratch.Add "related_matches" 1 }}
+  {{ end }}
+{{ end }}
+{{ if $.Scratch.Get "related_matches" }}
 </ul>
+
+{{ end }}

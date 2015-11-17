@@ -4,10 +4,16 @@
       {{ partial "page-top.html" . }}
       <div class="container">
           <div class="row">
-            {{ range .Data.Pages.ByPublishDate  }}
+            {{ $paginator := .Paginate .Data.Pages.ByPublishDate }}
+            {{ range  .Paginator.Pages  }}
               {{ partial "widgets/video.html" . }}
               <hr />
             {{ end }}
+          </div>
+          <div class="row">
+            <div class="text-center">
+            {{ template "_internal/pagination.html" . }}
+            </div>
           </div>
       </div>
   </div>

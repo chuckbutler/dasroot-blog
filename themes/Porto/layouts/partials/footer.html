@@ -11,11 +11,13 @@
                   <p>{{ .Site.Copyright }}</p>
               </div>
               <div class="col-md-4">
-              <!--    <nav id="sub-menu">
+                  <nav id="sub-menu">
                       <ul>
-                          <li><a href="/archives.html">Archive</a></li>
+                        {{ range .Site.Menus.social }}
+                        <li class="{{ .Name }}"><a href="{{ .URL }}" target="_blank" title="{{ .Name }}">{{ .Name }}</a></li>
+                        {{ end }}
                       </ul>
-                  </nav> -->
+                  </nav>
               </div>
           </div>
       </div>
