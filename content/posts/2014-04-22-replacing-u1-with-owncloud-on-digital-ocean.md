@@ -3,9 +3,6 @@ Title: Replacing U1 with OwnCloud on Digital Ocean
 Date: 2014-04-22T19:04:00-00:00
 Tags:
   - juju
-  - owncloud
-  - digitalocean
-  - ubuntu
   - planet
 Slug: replacing-u1-with-owncloud-on-digital-ocean
 Category: Community

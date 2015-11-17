@@ -3,7 +3,6 @@ Title: Fail2Ban Blacklisting
 Date: 2013-12-05T14:12:00-00:00
 Tags:
   - firewall
-  - admin-post
   - fail2ban
 Slug: fail2ban-blacklisting
 Category: Devops

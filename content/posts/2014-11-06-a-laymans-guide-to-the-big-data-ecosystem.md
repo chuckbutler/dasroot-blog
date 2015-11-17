@@ -5,7 +5,7 @@ Tags:
   - juju
   - planet
   - hadoop
-  - big-data-2
+  - big-data
 Category: BigData
 image: /images/2014/Nov/BigData_2267x1146_white.png
 ---

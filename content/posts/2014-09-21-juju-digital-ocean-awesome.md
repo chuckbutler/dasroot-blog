@@ -5,7 +5,6 @@ Tags:
   - juju
   - digitalocean
   - planet
-  - video
 post_id: juju-digital-ocean-awesome
 Category: Devops
 ---

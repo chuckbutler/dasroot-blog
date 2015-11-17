@@ -5,7 +5,7 @@ Tags:
   - rpi2
   - docker
   - lxd
-  - weekendhacks
+  - weekend-hacks
   - planet
 Slug: 2015-clementinebox-an-armhf-fueled-orangebox-alternative
 Category: projects

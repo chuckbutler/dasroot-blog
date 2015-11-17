@@ -3,7 +3,8 @@ Title: Charming with Docker
 Date: 2015-03-11T09:27:00-00:00
 Tags:
   - docker
-  - juju
+  - containers
+  - charm-authoring
   - documentation
   - planet
 Slug: 2015-charming-with-docker

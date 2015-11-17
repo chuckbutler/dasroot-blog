@@ -3,10 +3,8 @@ Title: Cooking the Errbit charm with Chef
 Date: 2013-12-14T23:12:00-00:00
 Tags:
   - juju
-  - errbit
-  - rails
-  - app-deployment
-  - juju-strano
+  - charm-authoring
+  - chef
 Category: Devops
 ---
 

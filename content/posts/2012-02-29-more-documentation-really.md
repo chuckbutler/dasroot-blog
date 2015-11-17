@@ -2,9 +2,7 @@
 Title: More Documentation? Really?
 Date: 2012-02-29T00:19:00-00:00
 Tags:
-  - resolve
-  - improving-weakness
-  - being-technical
+  - untagged
 Category: Programming
 ---
 

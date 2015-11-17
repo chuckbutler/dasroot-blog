@@ -2,12 +2,9 @@
 Title: Charming 2.0 - Now with 100% more awesome
 Date: 2015-10-22T10:41:00-00:00
 Tags:
-  - devops
-  - juju
   - reactive
-  - charms
-  - charming
-  - layers
+  - charm-authoring
+  - charm-layers
   - planet
 Slug: 2015-charming-2-point-oh
 Category: devops

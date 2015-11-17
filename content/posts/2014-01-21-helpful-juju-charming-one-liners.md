@@ -3,6 +3,7 @@ Title: Helpful Juju Workflow One-Liners
 Date: 2014-01-21T11:01:00-00:00
 Tags:
   - juju
+  - charm-authoring
 Category: Devops
 ---
 While performing the great charm audit of 2014, I've encountered quite a few helpful charm commands that I didn't know existed. This won't be a comprehensive and exhaustive list of commands, but an aggregation of those I find the most helpful (consult the manpage/[docs](https://juju.ubuntu.com/docs/) if you require a full list).

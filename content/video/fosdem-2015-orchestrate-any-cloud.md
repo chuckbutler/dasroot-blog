@@ -4,9 +4,7 @@ date: 2015-02-03T21:19:48-05:00
 post_id: fosdem-orchestrate-any-cloud
 self-hosted: null
 tags:
-  - Conference
-  - FOSDEM
-  - Juju
+  - conferences
 time: 48:25
 title: FOSDEM 2015 - orchestrate any cloud
 youtube: https://www.youtube.com/embed/JOq8YrRUFFc

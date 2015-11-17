@@ -3,7 +3,6 @@ Title: Flirting with disaster
 Date: 2012-10-15T06:22:00-00:00
 Tags:
   - ruby
-  - hoodwinked
 Category: Misc
 ---
 

@@ -6,8 +6,6 @@ Tags:
   - planet
   - big-data
   - hadoop
-  - hortonworks
-  - video
 Category: Devops
 summary: Over the past 4 months [Amir Sanjar](http://bigdatachat.net) and I have been working dilligently on Juju's Big Data story. Working with software vendors to charm up big name products like the Demo'd Hortonworks Hadoop distribution.
 post_id: juju-loves-bigdata

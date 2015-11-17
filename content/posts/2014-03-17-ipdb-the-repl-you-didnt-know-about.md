@@ -2,11 +2,9 @@
 Title: IPDB - the REPL you didn't know about
 Date: 2014-03-17T19:03:00-00:00
 Tags:
-  - juju
-  - python
-  - debugging
+  - charm-authoring
+  - charm-testing
   - amulet
-  - video
 Category: Programming
 post_id: ipdb-repl-didnt-know
 ---

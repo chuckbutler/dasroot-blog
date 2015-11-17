@@ -2,10 +2,8 @@
 Title: Steel City Ruby Conference
 Date: 2013-11-26T21:11:00-00:00
 Tags:
-  - pittsburgh
+  - ruby
   - conferences
-  - maiden-voyage
-  - ruby-2
 Category: Community
 ---
 

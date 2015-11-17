@@ -3,9 +3,7 @@ Title: AutoDNS - A weekend hack
 Date: 2015-01-19T01:08:00-00:00
 Tags:
   - python
-  - programming
   - dns
-  - dyndns-replacement
   - planet
 Category: programming
 Status: published

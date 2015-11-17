@@ -3,7 +3,6 @@ Title: GPG Made a comeback in my workflow
 Date: 2015-03-15T00:46:00-00:00
 Tags:
   - cryptography
-  - GPG
   - infographic
   - planet
 Slug: 2015-gpg-made-a-comeback-in-my-workflow

@@ -3,8 +3,7 @@ Title: Docker Charm revs to v0.1.0
 Date: 2015-06-02T13:51:00-00:00
 Tags:
   - docker
-  - juju
-  - charms
+  - charm-maintainership
   - planet
 Slug: 2015/docker-charm-revs-to-v010
 Category: devops

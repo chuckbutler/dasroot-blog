@@ -2,12 +2,9 @@
 Title: Launch the newly released Kubernetes 1.0.0 with Juju
 Date: 2015-07-21T11:00:00-00:00
 Tags:
-  - video
   - kubernetes
-  - juju
-  - devops
   - containers
-  - cluster
+  - docker
   - planet
 Slug: 2015-launch-kubernetes-with-juju
 Category: devops

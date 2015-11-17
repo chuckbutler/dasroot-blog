@@ -3,7 +3,6 @@ Title: Adopt a Charm
 Date: 2014-05-09T17:05:00-00:00
 Tags:
   - charm-maintainership
-  - ubuntu
   - juju
 Category: Devops
 ---

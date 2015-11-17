@@ -3,7 +3,7 @@ title: Writing the PaperTrail Charm
 date: 2013-12-02T18:17:42-05:00
 tags:
   - juju
-  - charming
+  - charm-authoring
 category: devops
 ---
 

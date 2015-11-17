@@ -4,10 +4,8 @@ date: 2014-03-06T20:29:42-05:00
 post_id: writing-juju-charms-on-osx
 self-hosted: null
 tags:
-  - juju
   - osx
   - charm-authoring
-  - workflow
 time: 14:16
 title: juju charm osx workflow
 youtube: https://www.youtube.com/embed/TSLJ22ntPQA

@@ -3,8 +3,6 @@ Title: Functional Ruby as a complete noob
 Date: 2012-04-10T21:15:00-00:00
 Tags:
   - ruby
-  - pdf
-  - markdown
 Category: Programming
 ---
 

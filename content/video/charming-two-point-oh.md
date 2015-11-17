@@ -4,11 +4,10 @@ date: 2015-10-22T17:41:40-05:00
 post_id: charming-two-oh
 self_hosted: null
 tags:
-  - layers
+  - charm-layers
   - payload-tracking
-  - charm-build
-  - reactive
   - charm-authoring
+  - reactive
 time: 6:00
 title: Charming 2point Oh
 youtube: https://www.youtube.com/embed/aRQcERLnbIQ

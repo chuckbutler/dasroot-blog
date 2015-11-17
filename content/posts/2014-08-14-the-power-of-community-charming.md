@@ -3,10 +3,9 @@ Title: The Power of Community Charming
 Date: 2014-08-14T12:08:00-00:00
 Tags:
   - juju
-  - charming
   - charm-maintainership
+  - charm-authoring
   - charms
-  - charm-store
   - planet
 Category: Community
 ---

@@ -2,12 +2,9 @@
 Title: Container Networking with Flannel
 Date: 2014-12-16T19:12:00-00:00
 Tags:
-  - juju
-  - networking
-  - planet
-  - flannel
   - lxc
-  - video
+  - networking
+  - containers
 Category: Devops
 post_id: container-networking-flannel
 ---

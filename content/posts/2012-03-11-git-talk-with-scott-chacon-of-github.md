@@ -2,9 +2,7 @@
 Title: GIT talk with Scott Chacon of GitHub
 Date: 2012-03-11T20:11:00-00:00
 Tags:
-  - git
-  - screencast
-  - video
+  - untagged
 Category: Programming
 ---
 

@@ -4,9 +4,6 @@ Date: 2013-12-22T02:12:00-00:00
 Tags:
   - fabric
   - python
-  - deploy
-  - qemu
-  - steam
 Category: Devops
 ---
 

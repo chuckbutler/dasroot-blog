@@ -3,9 +3,8 @@ Title: Doing it right with S3
 Date: 2012-03-16T19:23:00-00:00
 Tags:
   - AWS
-  - Cloud
-  - Saving-Cheddar
-  - Jorge-did-it
+  - blog
+  - saving-cheddar
 Category: Web
 ---
 

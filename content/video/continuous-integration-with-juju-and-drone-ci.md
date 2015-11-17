@@ -4,8 +4,7 @@ date: 2015-07-15T21:33:00-05:00
 post_id: drone-ci-juju-integration
 self-hosted: null
 tags:
-  - juju
-  - drone-ci
+  - build-pipeline
   - continuous-delivery
 time: 10:30
 title: Continuous Integration with Juju and Drone CI

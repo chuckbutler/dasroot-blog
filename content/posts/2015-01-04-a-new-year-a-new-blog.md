@@ -2,11 +2,9 @@
 Title: A New Year a New Blog
 Date: 2015-01-04T07:23:00-00:00
 Tags:
-  - programming
   - planet
   - blog
   - retrospective
-  - review
 Category: Misc
 Image: /images/2015/january/retrospective.jpg
 ---

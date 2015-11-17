@@ -3,8 +3,7 @@ Title: Juju Charm Infographic
 Date: 2014-06-15T13:06:00-00:00
 Tags:
   - juju
-  - charming
-  - ubuntu
+  - infographic
 Category: Devops
 ---
 

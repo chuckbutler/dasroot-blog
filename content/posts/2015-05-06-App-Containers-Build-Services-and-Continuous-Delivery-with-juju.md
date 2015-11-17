@@ -2,13 +2,9 @@
 Title: Juju App Containers, Build Services, and Continuous Delivery
 Date: 2015-05-06T20:10:00-00:00
 Tags:
-  - devops
-  - juju
   - docker
   - build-pipeline
-  - formation
   - bundles
-  - pure-awesome
   - planet
 Slug: containers-build-services-and-continuous-delivery-with-juju
 Category: devops

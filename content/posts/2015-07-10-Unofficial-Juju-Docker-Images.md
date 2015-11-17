@@ -3,7 +3,6 @@ Title: Unofficial Juju Docker Images
 Date: 2015-07-10T02:51:00-00:00
 Tags:
   - docker
-  - juju
   - tooling
   - planet
 Slug: 2015-unofficial-docker-images

@@ -2,11 +2,9 @@
 Title: FCM2, FOSDEM15, and CFGMGMTCAMP Retrospective
 Date: 2015-02-03T03:44:00-00:00
 Tags:
-  - conference
-  - devops
+  - conferences
   - retrospective
   - planet
-  - video
 Slug: fcm2-fosdem15-and-cfgmgmtcamp-retrospective
 Category: community
 Status: published

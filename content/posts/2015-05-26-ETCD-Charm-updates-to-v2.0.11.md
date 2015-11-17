@@ -2,9 +2,8 @@
 Title: ETCD Charm updates to v2.0.11
 Date: 2015-05-26T12:57:00-00:00
 Tags:
-  - juju
   - etcd
-  - charms
+  - charm-maintainership
   - planet
 Slug: 2015/etcd-charm-updates-to-v2011
 Category: devops

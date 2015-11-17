@@ -2,12 +2,8 @@
 Title: Juju Powered Radio! A protoduction experiment.
 Date: 2014-09-26T19:09:00-00:00
 Tags:
+  - charm-authoring
   - juju
-  - planet
-  - radio
-  - music
-  - automation
-  - experiment
 Category: Devops
 ---
 

@@ -4,10 +4,9 @@ date: 2014-09-21T21:02:04-05:00
 post_id: juju-digital-ocean-awesome
 self-hosted: null
 tags:
-  - juju
   - digitalocean
 time: 10:40
-title: juju digital ocean awesome
+title: Getting started with Juju on DigitalOcean
 youtube: https://www.youtube.com/embed/1igZWnCi8Ac
 ---
 

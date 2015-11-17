@@ -2,11 +2,7 @@
 Title: Developer tips from Grandmas Boy
 Date: 2013-11-26T21:11:00-00:00
 Tags:
-  - project-management
-  - process
-  - grandmas-boy
-  - level-up
-  - achivement-unlocked
+  - untagged
 Category: Programming
 ---
 

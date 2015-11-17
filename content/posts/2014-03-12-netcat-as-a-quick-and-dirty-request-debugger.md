@@ -2,8 +2,8 @@
 Title: Netcat as a quick and dirty request debugger
 Date: 2014-03-12T18:03:00-00:00
 Tags:
-  - cli
-  - netcat
+  - shell
+  - charm-authoring
   - debugging
 Category: Devops
 ---

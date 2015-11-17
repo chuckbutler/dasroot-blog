@@ -2,10 +2,8 @@
 Title: Closure JS Compiler
 date: 2012-02-12T18:17:42-05:00
 tags:
-  - javascript
-  - compile
-  - python
-Category: Web
+  - untagged
+Category: web
 ---
 
 [Nathan Osman](https://plus.google.com/109692134350783862945) asked me a while back about what I knew of the [closure compiler](http://code.google.com/closure/compiler/). At that time, I had _no_ idea what I was missing.

@@ -2,10 +2,8 @@
 Title: 5 Tips for 'Pure Python' Juju Charms
 Date: 2014-05-23T02:05:00-00:00
 Tags:
-  - juju
-  - charming
+  - charm-authoring
   - python
-  - ubuntu
 Category: Devops
 image: /images/2014/May/charming_in_pure_python.png
 imagecaption: Special thanks to Tim for use of his comic above

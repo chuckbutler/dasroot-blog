@@ -3,11 +3,7 @@ Title: Sharpening the chainsaw pt. 1
 Date: 2012-04-08T23:15:00-00:00
 Category: shell
 Tags:
-  - git
-  - posix
-  - linux
-  - environments
-  - zsh
+  - shell
 ---
 
 I recently got into Ruby development with some help from [Jesse Dearing](http://jessedearing.com) and [James Gifford](https://plus.google.com/103797989648432285071/posts) and I found my shell environment to be quite a bit lacking. It wasn't Exactly vanilla, but It needed some help.

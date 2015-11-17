@@ -2,10 +2,8 @@
 Title: Expediting local isolation with Docker and Juju
 Date: 2015-04-07T11:30:00-00:00
 Tags:
-  - devops
+  - containers
   - docker
-  - juju
-  - workflow
   - charm-authoring
 Slug: 2015-local-isolation-with-docker-and-juju
 Category: Shell

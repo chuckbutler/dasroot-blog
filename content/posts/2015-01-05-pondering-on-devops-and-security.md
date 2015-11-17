@@ -4,9 +4,7 @@ Date: 2015-01-05T13:30:00-00:00
 Tags:
   - security
   - infosec
-  - metasploit
   - docker
-  - devops
   - planet
 Category: devops
 image: /images/2015/january/infosec.jpg

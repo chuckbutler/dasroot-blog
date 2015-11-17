@@ -1,15 +1,13 @@
 ---
 category: Development
-date: 2015-11-15T18:17:42-05:00
-image: null
+date: 2015-11-18T18:17:42-05:00
 imagecaption: null
 post_id: adamstokes-nodejs
 tags:
   - interview
-  - charm-build
-  - layers
+  - charm-authoring
+  - charm-layers
   - python
-  - juju
   - planet
 title: NodeJS Charm Layer Interview with Adam Stokes
 image: /images/2015/nov/stokes-interview.png

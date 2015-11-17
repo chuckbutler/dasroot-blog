@@ -2,13 +2,10 @@
 Title: Continuous Integration with Juju and Drone CI
 Date: 2015-07-15T10:33:00-00:00
 Tags:
-  - devops
   - build pipeline
   - ci
   - drone
   - docker
-  - juju
-  - video
   - planet
 Slug: 2015-continuous-integration-with-juju-and-drone-ci
 Category: devops

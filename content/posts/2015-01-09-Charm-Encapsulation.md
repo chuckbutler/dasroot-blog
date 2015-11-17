@@ -2,9 +2,7 @@
 Title: Charm Encapsulation
 Date: 2015-01-09T00:04:00-00:00
 Tags:
-  - juju
-  - charming
-  - theory
+  - charm-authoring
   - planet
 Category: devops
 Slug: 2015-charm-encapsulation
@@ -28,7 +26,7 @@ The first task for my team this new year has been to look into Kubernetes - with
 prototype charms from [Hazmat](http://blog.kapilt.com/) we were set along our path of discovery.
 A few man hours have already been spent writing the services, and getting things together - but
 this just didn't bode well with me. To take a prototype, and run headfirst down the long hallway
-of container orchestration. I'm goign to 'pick' on one charm in particular - the
+of container orchestration. I'm going to 'pick' on one charm in particular - the
 [Flannel charm](https://launchpad.net/~hazmat/charms/trusty/flannel/trunk) I exhibited in a
 [prior post](/container-networking-with-flannel.html)
 
@@ -43,7 +41,7 @@ thing that irks me is it was a mashup of concerns.
 - Communicate with ETCD to enable SDN for either provider
 - Handle updates for aforementioned container provider
 
-These concerns being mashed into one charm, while they might be feesable for proto-ware, it
+These concerns being mashed into one charm, while they might be feasible for proto-ware, it
 doesn't sit well with me for composability.
 
 ### Composability Illustrates Good Encapsulation
@@ -58,7 +56,7 @@ facts and run down a checklist of concerns for the charm outline as so:
 - Does it make things easier to maintain if I do it another way?
 
 In some cases, it may make sense to co-locate services in the same charm. For example, if I were
-to deplay a LAMP stack - it makes complete sense to co-locate the database, webhead, and PHP
+to deploy a LAMP stack - it makes complete sense to co-locate the database, webhead, and PHP
 daemon on the same machine and manage those services. (I can argue the point, but its a very
 familiar example)
 
@@ -82,7 +80,7 @@ own concerns about what to do to the state of the host.
 > case given.
 
 
-Should there ever come a time where we want to move away from flannel to another SDN solution - we can now change out the service on each host, allowing for a live migration away from Flannel to &lt;Service&gt;. As well as taken a tightly coupled service definition, and changed it into a relation with simple datapass between then.
+Should there ever come a time where we want to move away from flannel to another SDN solution - we can now change out the service on each host, allowing for a live migration away from Flannel to &lt;Service&gt;. As well as taken a tightly coupled service definition, and changed it into a relation with simple data pass between then.
 
 We have done a few things as a byproduct:
 
@@ -135,7 +133,7 @@ flannel to restart it self and populates /etc/flannel/subnet.ev with the proper 
 came back from etcd. We're clearly not in the network-relation-changed event, how do we send this
 information back over the wire without breaking encapsulation?
 
-THe magic is line 24 in Fig 1.2 - we aggregate facts, and pass them over the context of the network
+The magic is line 24 in Fig 1.2 - we aggregate facts, and pass them over the context of the network
 relationship using `relation-set -r #id`. This took a bit more dancing of the juju jig to get the
 data.
 
@@ -152,7 +150,7 @@ data.
 > `scope: container` to the relationship.
 
 With all of these in mind - I'm confident we are building a good example for the community to follow
-with regards to service encapsulation, proxying information, and building a better, more composeable
+with regards to service encapsulation, proxying information, and building a better, more compose-able
 ecosystem for everyone to enjoy.
 
 ### Happy Charming!

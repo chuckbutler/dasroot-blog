@@ -4,9 +4,6 @@ Date: 2012-03-25T22:48:00-00:00
 Tags:
   - saving-cheddar
   - gaming
-  - mono
-  - open-source
-  - post
 Category: Misc
 ---
 

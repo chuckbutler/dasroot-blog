@@ -2,8 +2,7 @@
 Title: Automate DNS with Juju
 Date: 2015-07-10T06:28:00-00:00
 Tags:
-  - juju
-  - devops
+  - charm-authoring
   - dns
   - planet
 Slug: 2015-dns-automation-with-juju

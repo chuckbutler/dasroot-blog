@@ -2,7 +2,6 @@
 Title: The power of components
 Date: 2015-07-30T08:26:00-00:00
 Tags:
-  - juju
   - kubernetes
   - planet
 Slug: 2015-the-power-of-components

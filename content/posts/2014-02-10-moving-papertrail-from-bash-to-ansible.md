@@ -2,7 +2,8 @@
 Title: Moving Papertrail from Bash to Ansible
 Date: 2014-02-10T20:02:00-00:00
 Tags:
-  - charming
+  - charm-authoring
+  - ansible
 Category: Devops
 ---
 

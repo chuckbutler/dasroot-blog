@@ -3,7 +3,7 @@ Title: Breaking the Rubrik habit
 date: 2012-02-12T18:17:42-05:00
 Tags:
   - rant
-Category: Web
+Category: web
 ---
 
 After setting up octopress it was brought to my attention that every geek from Singapore to LA has an octopress blog that sports the default theme. There was an excellent article that I seem to have misplaced. However the overall premise: "While your blog should focus on quality content, you have to have a desirable stage to present your information. " So I started looking into rapid frameworks for front end design.
