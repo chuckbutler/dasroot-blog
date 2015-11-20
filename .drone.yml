@@ -1,6 +1,5 @@
 image: lazypower/hugo-builder:latest
 script:
   - rm -rf public/*
-  - hugo -t $THEME
+  - hugo -t $THEME --disableLiveReload
   - s3cmd --access_key=$ACCESS_KEY_ID --secret_key=$SECRET_ACCESS_KEY --no-mime-magic --guess-mime-type --acl-public --delete-removed sync public/* s3://$BUCKET/
-
