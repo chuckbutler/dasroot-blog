@@ -15,7 +15,7 @@
                     {{ if .Params.imagecaption }}
                     <div class="post-image-credit"><small><strong>Note: </strong>{{ .Params.imagecaption }}</small></div>
                     {{ end }}
-                    
+
                     {{ $postid := .Params.post_id }}
 
                     {{ range where .Site.Pages.ByDate "Section" "video" }}
@@ -40,7 +40,9 @@
                     </div>
                 </article>
             </div>
+            {{ partial "widgets/author.html" . }}
 
+            {{ partial "disqus.html" . }}
 
           </div>
           <div class="col-md-3">
