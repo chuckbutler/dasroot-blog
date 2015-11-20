@@ -25,6 +25,7 @@ params:
   TwitterID: lazypower
   TwitterWidgetID: 551646827624554496
   NumRelatedPosts: 3
+  disqus_shortname: dasroot
 
 
 menu:
@@ -33,8 +34,6 @@ menu:
       URL: "/video"
     - Name: "Talks"
       URL: "/talk"
-    - Name: "About"
-      URL: "/about"
     - Name: "Blog"
       URL: "/posts"
   social:
