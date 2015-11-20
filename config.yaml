@@ -20,7 +20,7 @@ blackfriday:
   plainIdAnchors: true
 
 params:
-  GOOGLE_ANALYTICS: 1234
+  GOOGLE_ANALYTICS: UA-29116636-1
   Tagline: Juju Deploy Happiness
   TwitterID: lazypower
   TwitterWidgetID: 551646827624554496
