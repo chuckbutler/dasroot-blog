@@ -9,6 +9,7 @@ tags:
   - systemzoo
   - planet
 title: SystemZoo On Air Episode 01
+disqus_id: systemzoo_episode_one
 ---
 
 You may have heard me mention something about "System Zoo" in the past. It's
