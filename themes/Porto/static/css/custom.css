@@ -18,3 +18,10 @@
 .post-content img {
   max-width: 100% !important;
 }
+
+/* VideJS is cool, but when we're playing audio dont fade out */
+.vjs-default-skin.vjs-has-started.vjs-user-inactive.vjs-playing .vjs-control-bar {
+visibility: visible !important;
+opacity: 1 !important;
+transition-duration: 0s!important;
+}
