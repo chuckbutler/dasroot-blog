@@ -28,7 +28,7 @@ A few man hours have already been spent writing the services, and getting things
 this just didn't bode well with me. To take a prototype, and run headfirst down the long hallway
 of container orchestration. I'm going to 'pick' on one charm in particular - the
 [Flannel charm](https://launchpad.net/~hazmat/charms/trusty/flannel/trunk) I exhibited in a
-[prior post](/container-networking-with-flannel.html)
+[prior post](/posts/2014-12-16-container-networking-with-flannel/)
 
 It really is a brilliant piece of work. The primary directive of the Flannel charm was to Install
 a container environment, either LXC or Docker - and add a Software Defined Network bridge that
