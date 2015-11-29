@@ -25,7 +25,7 @@ Nothing about these patterns really stood out in terms of reference architecture
 
 ## The Docker Components of Today
 
-I want to highlight that we have done an excellent job of illustrating composability and [concern encapsulation](/2015-charm-encapsulation.html) in these charms. These charms are also fully documented on each of their respective repositories over on Github.
+I want to highlight that we have done an excellent job of illustrating composability and [concern encapsulation](/posts/2015-charm-encapsulation/) in these charms. These charms are also fully documented on each of their respective repositories over on Github.
 
 ### The Docker Charm
 
