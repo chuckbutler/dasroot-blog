@@ -8,7 +8,7 @@ Tags:
 Category: Devops
 ---
 
-I had the opportunity to plan and hack on a charm over the last few weeks that provided DNS as a service to supporting charms. (which subsequently has come between myself and the revamping of the [RAILS charm](/adopt-a-charm/)) This was a great opportunity to flex and test some of the boundaries within the Juju ecosystem to provide a solution out of the box.
+I had the opportunity to plan and hack on a charm over the last few weeks that provided DNS as a service to supporting charms. (which subsequently has come between myself and the revamping of the [RAILS charm](/posts/2014-05-09-adopt-a-charm/)) This was a great opportunity to flex and test some of the boundaries within the Juju ecosystem to provide a solution out of the box.
 
 #### Planning
 
