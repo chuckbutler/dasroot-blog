@@ -35,12 +35,12 @@ menu:
     - Name: "Talks"
       URL: "/talk"
     - Name: "Blog"
-      URL: "/posts"
+      URL: "/"
   social:
     - Name: twitter
       URL: https://twitter.com/lazypower
     - Name: linkedin
-      URL: http://blog.dasroot.net/www.linkedin.com/pub/charles-butler/28/748/74/
+      URL: http://www.linkedin.com/pub/charles-butler/28/748/74/
     - Name: googleplus
       URL: https://plus.google.com/+CharlesButlertheNinja/
     - Name: reddit
