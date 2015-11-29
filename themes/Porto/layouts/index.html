@@ -6,9 +6,20 @@
                 {{ partial "page-top.html" . }}
                 <div class="container">
                     <div class="row">
+                      <!-- CONTENT -->
                         <div class="col-md-9">
-                        <!-- CONTENT -->
-
+                          {{ $paginator := .Paginate .Data.Pages.ByPublishDate }}
+                          {{ range .Paginator.Pages  }}
+                            {{ if eq .Section "video" }}
+                              {{ partial "widgets/video.html" . }}
+                            {{ end }}
+                            {{ if eq .Section "posts" }}
+                              {{ partial "widgets/post-summary.html" . }}
+                            {{ end }}
+                          {{ end }}
+                          <div class="text-center">
+                          {{ template "_internal/pagination.html" . }}
+                          </div>
                         </div>
                         <!-- Sidebar -->
                         <div class="col-md-3">
