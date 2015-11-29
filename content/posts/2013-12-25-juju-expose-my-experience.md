@@ -34,7 +34,7 @@ One of the many tradeoffs I took with this approach is mixing and matching the h
 
 ### Prototyping with Python is fun and fast
 
-My lessons with Juju drove me to look at python. Its powering most of the core juju dev framework like `charm-tools` and `amulet`. I knew very little python coming into this experience so my first stop was the provisioning helper Fabric. I wrote a quick [deployment routine in Fabric](http://blog.dasroot.net/fabric-qemu-and-steamcmd/), and translated the routine to bash driven hooks for the [Starbound Charm](https://github.com/chuckbutler/starbound-charm/)
+My lessons with Juju drove me to look at python. Its powering most of the core juju dev framework like `charm-tools` and `amulet`. I knew very little python coming into this experience so my first stop was the provisioning helper Fabric. I wrote a quick [deployment routine in Fabric](/posts/2013-12-22-fabric-qemu-and-steamcmd/), and translated the routine to bash driven hooks for the [Starbound Charm](https://github.com/chuckbutler/starbound-charm/)
 
 
 >I'm pretty excited about this, as it cuts a corner away from the chef dependency. Moving into a Python first provisioner would cut down on the installation hook quite a bit. At writing deploying to an LXC container takes just under 4 minutes. The provisioning portion from time of first hook execution is hanging right around the 2 minute mark. This really makes me want to look into Ansible as a provisioning framework.
