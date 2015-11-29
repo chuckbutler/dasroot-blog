@@ -9,12 +9,12 @@ Category: Devops
 post_id: container-networking-flannel
 ---
 
- When leveraging juju with LXC in cloud environments - networking has been a constant thorn in my side as I attempt to scale out farms of services in their full container glory. Thanks to the work by [Hazmat](http://blog.kapilt.com/) (who brought us the [Digital Ocean Provider](/juju-digital-ocean-awesome)) - there is a new development in this sphere ready for testing over this holiday season.
+ When leveraging juju with LXC in cloud environments - networking has been a constant thorn in my side as I attempt to scale out farms of services in their full container glory. Thanks to the work by [Hazmat](http://blog.kapilt.com/) (who brought us the [Digital Ocean Provider](http://github.com/kapilt/juju-digitalocean)) - there is a new development in this sphere ready for testing over this holiday season.
 
 
 ### Container Networking with Juju in the cloud
 
-Juju by default supports colocating services with LXC containers and KVM machines. LXC is all the rage these days, as linux containers are light weight kernel virtualized cgroups. Akin to BSD Jails - but not quite. Its a awesome solution where you dont care about resource isolation, and Just want your application to run within its own happy root, and live on churning away at whatever you might throw at it.
+Juju by default supports colocating services with LXC containers and KVM machines. LXC is all the rage these days, as linux containers are light weight kernel virtualized cgroups. Akin to BSD Jails - but not quite. Its a awesome solution where you don't care about resource isolation, and Just want your application to run within its own happy root, and live on churning away at whatever you might throw at it.
 
 While this is great - it has a major achilles tendon presently in the Juju sphere. Cross-host communication is all but non-existant. In order to really scale and use LXC containers you need a beefy host to warehouse all the containers you can stuff on its disk. This isn't practical in scale out situations where your needs change on a day to day basis. You wind up losing out on the benefits of commodity hardware.  
 
