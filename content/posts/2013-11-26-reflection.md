@@ -56,7 +56,7 @@ I've gone over the soft skills and business landscape. Let's do something geeky 
     alias vu='vagrant up'
     alias vp='vagrant provision'
 
-Noteable new additions: Vagrant, LocomotiveWagon, and BZR. As you see I've been working fairly extensively in Chef, Vagrant, Juju, and working with a new Rails based CMS: [http://www.locomotivecms.com](LocomotiveCMS)
+Noteable new additions: Vagrant, LocomotiveWagon, and BZR. As you see I've been working fairly extensively in Chef, Vagrant, Juju, and working with a new Rails based CMS: [Locomotive CMS](http://www.locomotivecms.com)
 
 ## Recent Random Awesomeness
 
