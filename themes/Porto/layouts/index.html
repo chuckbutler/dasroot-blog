@@ -10,9 +10,6 @@
                         <div class="col-md-9">
                           {{ $paginator := .Paginate .Data.Pages.ByPublishDate }}
                           {{ range .Paginator.Pages  }}
-                            {{ if eq .Section "video" }}
-                              {{ partial "widgets/video.html" . }}
-                            {{ end }}
                             {{ if eq .Section "posts" }}
                               {{ partial "widgets/post-summary.html" . }}
                             {{ end }}
