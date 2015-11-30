@@ -5,7 +5,6 @@ Tags:
   - docker
   - charm-maintainership
   - planet
-Slug: 2015/docker-charm-revs-to-v010
 Category: devops
 Status: published
 Image: /images/2015/june/docker_release.png
