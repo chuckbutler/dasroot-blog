@@ -111,7 +111,7 @@ Here's a snippet from the Dockerfile:
 When doing Review Queue we also like to isolate our reviews using these images
 and running them with the --rm to ensure any development dependencies are wiped
 when we exit the context of the image. I posted about this in-depth in
-[Expediting Isolation with Juju and Docker](/2015-local-isolation-with-docker-and-juju.html)
+[Expediting Isolation with Juju and Docker](/posts/2015-local-isolation-with-docker-and-juju/)
 
 
 And finally, we find these images are great for a portable Juju installation on
