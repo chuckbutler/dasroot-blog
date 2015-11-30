@@ -1,10 +1,12 @@
 ---
-Title: An overdue reflection
-Date: 2013-11-26T21:11:00-00:00
-Tags:
+category: Shell
+date: 2013-11-26T05:03:11-05:00
+image: null
+imagecaption: null
+post_id: null
+tags:
   - shell
-  - reflection
-Category: Shell
+title: An overdue reflection
 ---
 
 This year has been absolutely crazy. Never in my wildest dreams did I think I would come as far as I have.
