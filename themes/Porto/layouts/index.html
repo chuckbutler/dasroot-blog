@@ -8,7 +8,7 @@
                     <div class="row">
                       <!-- CONTENT -->
                         <div class="col-md-9">
-                          {{ $paginator := .Paginate .Data.Pages.ByPublishDate }}
+                          {{ $paginator := .Paginate (where .Data.Pages "Type" "posts").ByPublishDate }}
                           {{ range .Paginator.Pages  }}
                             {{ if eq .Section "posts" }}
                               {{ partial "widgets/post-summary.html" . }}
