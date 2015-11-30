@@ -54,7 +54,7 @@ This delivers a single host ready to run your containerized workloads. Try it to
 
 ![Flannel and Docker](/images/2015/march/docker_flannel.png)
 
-Flannel has been [covered before](/posts/2015-container-networking-with-flannel.html) in length in another post.
+Flannel has been [covered before](/posts/2014-12-16-container-networking-with-flannel/) in length in another post.
 
 The flannel-docker charm is scoped to deploy flannel specifically into the docker host. It no-ops until it has a relationship with ETCD - that warehouses its subnet data and keeps track of the distributed network.
 
