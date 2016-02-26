@@ -9,7 +9,7 @@ tags:
   - charmbox
   - charming
   - docker
-title: charmbox devel flavor gets a beta juju bump
+title: Charmbox:devel gets a beta juju bump
 Status: published
 ---
 
