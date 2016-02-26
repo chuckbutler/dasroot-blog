@@ -8,8 +8,6 @@ tags:
   - juju
   - charmbox
   - charming
-  - 2.0
-  - devel
   - docker
 title: charmbox devel flavor gets a beta juju bump
 Status: published
