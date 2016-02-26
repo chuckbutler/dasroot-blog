@@ -50,6 +50,6 @@ This is basically -beta all around, and will eventually supersede what is servin
 as :latest from `jujusolutions/charmbox` - which delivers the current -stable
 Juju 1.25 now.
 
-## Get Started
+## Get Started on OSX
 
 <script src="https://gist.github.com/chuckbutler/02af4d7f2838c4da5498.js"></script>
