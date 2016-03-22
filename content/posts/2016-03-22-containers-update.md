@@ -13,7 +13,7 @@ title:  Container Ecosystem Update (March 2016)
 ---
 
  <script src="https://assets.ubuntu.com/v1/juju-cards-v1.0.9.js"></script>
- 
+
 Heres an update update for the
 Containers team. Its been an exciting couple of weeks, and I'd like to take a
 moment to run you down what we've been up to, and what’s coming.
@@ -46,9 +46,9 @@ should be treated as concept work - Please file bugs, and leave feedback :)
 
 What’s left:
 
-TLS Support
-Any additional configuration that isn’t currently exposed in config.yaml per charm
-Full Packetbeat integration (its finicky as best i can tell)
+- TLS Support
+- Any additional configuration that isn’t currently exposed in config.yaml per charm
+- Full Packetbeat integration (its finicky as best i can tell)
 
 But this is a solid start to exposing an x-ray to any Juju model out there.
 
