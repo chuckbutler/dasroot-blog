@@ -52,10 +52,10 @@ What’s left:
 
 But this is a solid start to exposing an x-ray to any Juju model out there.
 
-<div class="juju-card" data-id="~containers/trusty/topbeat-5"></div>
-<div class="juju-card" data-id="~containers/trusty/filebeat-3"></div>
+<div class="juju-card" data-id="~containers/trusty/topbeat"></div>
+<div class="juju-card" data-id="~containers/trusty/filebeat"></div>
 
-<div class="juju-card" data-id="~containers/bundle/beats-core-3"></div>
+<div class="juju-card" data-id="~containers/bundle/beats-core"></div>
 
 ![/images/2016/mar/kibana.png](/images/2016/mar/kibana.png)
 ![/images/2016/mar/topbeat-dashboard.png](/images/2016/mar/topbeat-dashboard.png)
