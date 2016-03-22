@@ -12,7 +12,8 @@ tags:
 title:  Container Ecosystem Update (March 2016)
 ---
 
-
+ <script src="https://assets.ubuntu.com/v1/juju-cards-v1.0.9.js"></script>
+ 
 Heres an update update for the
 Containers team. Its been an exciting couple of weeks, and I'd like to take a
 moment to run you down what we've been up to, and what’s coming.
@@ -24,7 +25,7 @@ be seen in the charm store under our namespace
 
 as well as our team landing page
 
-[http://containers.juju.solutions](http://jujucharms.com/u/containers)
+[http://containers.juju.solutions](http://containers.juju.solutions)
 
 
 # Beats
@@ -68,7 +69,7 @@ New ELK stack bundle complete w/ integration tests from the top down
 Various fixes to the Kibana and Elasticsearch charm(s), as well as some version
  bumps to the 2.x series of services.
 
- <script src="https://assets.ubuntu.com/v1/juju-cards-v1.0.9.js"></script>
+
  <div class="juju-card" data-id="~containers/bundle/elk-stack-0"></div>
 
 
