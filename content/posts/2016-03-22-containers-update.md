@@ -60,7 +60,7 @@ But this is a solid start to exposing an x-ray to any Juju model out there.
 # ELK Stack
 
 New Logstash charm submission!
-[https://bugs.launchpad.net/charms/+bug/1560167]()https://bugs.launchpad.net/charms/+bug/1560167
+[https://bugs.launchpad.net/charms/+bug/1560167](https://bugs.launchpad.net/charms/+bug/1560167)
 
 New ELK stack bundle complete w/ integration tests from the top down
 [https://bugs.launchpad.net/charms/+bug/1560187](https://bugs.launchpad.net/charms/+bug/1560187)
