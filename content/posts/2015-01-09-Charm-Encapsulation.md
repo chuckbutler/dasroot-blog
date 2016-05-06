@@ -116,7 +116,7 @@ The interesting bit here is the relationship cycle/sequence that occurs during s
 > the subordinate connect and deploy within `scope: container`.
 
 ##### Fig 1.1 - metadata.yaml
-[gist:id=10420566b629b6abbeed,file=metadata.yaml]
+<script src="https://gist.github.com/chuckbutler/10420566b629b6abbeed.js?file=metadata.yaml"></script>
 
 #### Pass Data between units, outside of the relationship context
 
@@ -126,7 +126,7 @@ were to relate flannel-docker:network after they related flannel-docker to etcd?
 dependency chain gets interesting.
 
 ##### Fig 1.2 Snippet from ansible playbook
-[gist:id=10420566b629b6abbeed,file=flannel-configuration.yaml]
+<script src="https://gist.github.com/chuckbutler/10420566b629b6abbeed.js?file=flannel-configuration.yaml"></script>
 
 We have data that we didn't have until the database relationship joined - this is what triggers
 flannel to restart it self and populates /etc/flannel/subnet.ev with the proper information that
