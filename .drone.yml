@@ -1,5 +1,7 @@
 build:
   image: lazypower/hugo-builder:latest
+  environment:
+    theme: Porto
   commands:
     - rm -rf public/*
     - hugo -t $$THEME
