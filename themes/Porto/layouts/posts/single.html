@@ -13,7 +13,7 @@
                     </div>
                     {{ end }}
                     {{ if .Params.imagecaption }}
-                    <div class="post-image-credit"><small><strong>Note: </strong>{{ .Params.imagecaption }}</small></div>
+                    <div class="post-image-credit"><small><strong>Note: </strong>{{ .Params.imagecaption | safeHTML }}</small></div>
                     {{ end }}
 
                     {{ $postid := .Params.post_id }}
