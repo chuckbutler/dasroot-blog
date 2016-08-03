@@ -5,9 +5,9 @@ image: "/images/2016/aug/layer_docker_deep_dive.jpg"
 imagecaption: Copyright <a href='http://www.123rf.com/profile_nexusplexus'>nexusplexus / 123RF Stock Photo</a>
 post_id: layer-docker-deep-dive
 tags:
-  - charming
   - tutorial
   - docker
+  - charm-authoring
 title: Layer Docker Deep Dive
 ---
 
