@@ -9,7 +9,6 @@ tags:
   - tutorial
   - docker
 title: Layer Docker Deep Dive
-draft: true
 ---
 
 Juju is all about modeling your application. That means that an application can be in a docker container, use a configuration management utility on top of a traditional machine, or is a single binary golang application. This is the beauty of abstracting via models; we can concentrate on the applications themselves instead of their delivery methods. In this article we will cover the use case of being a developer, with different docker containers, and how we can model our application. Additionally how we can scale out leveraging Juju’s relationships to horizontally scale to other applications.
