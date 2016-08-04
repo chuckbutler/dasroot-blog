@@ -641,7 +641,7 @@ Congratulations on building your first layer-docker empowered charm, and any iss
 
 ## TL;DR
 
-If reading isn’t your thing, the repository for the charm layer code is here. And you can deploy this solution instantly from my namespace:
+If reading isn’t your thing, the repository for the charm layer code is [here](https://github.com/charm-school/layer-docker-blog-samples). And you can deploy this solution instantly from my namespace:
 
 ```
 juju deploy cs:~lazypower/voting-app
