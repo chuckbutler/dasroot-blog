@@ -3,8 +3,12 @@ category: devops
 date: 2016-08-16T14:01:05-05:00
 image: "/images/2016/aug/packaging.jpg"
 imagecaption: "Copyright: <a href='http://www.123rf.com/profile_scanrail'>scanrail / 123RF Stock Photo</a>"
-post_id: snaps-everywhere
-tags: snappy, ubuntu, packages, docker
+post_id:
+tags:
+ - snappy
+ - ubuntu
+ - packages
+ - docker
 title: Snaps, Snaps Everywhere!
 ---
 
@@ -111,5 +115,3 @@ writing snaps, and subsequently how to build them on your laptop/desktop/calcula
 All that's required is a docker daemon  thanks to this neat little hack  :)
 
 Snap Happy!
-
-
