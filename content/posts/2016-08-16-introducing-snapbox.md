@@ -13,7 +13,7 @@ title: Snaps, Snaps Everywhere!
 ---
 
 I've been reading a lot of the buzz around Snappy as a packaging format. With the publication of
-great tooling like [Snapcraft](https://snapcraft.io) I was really feeling left out in the cold.
+great tooling like [Snapcraft](http://snapcraft.io) I was really feeling left out in the cold.
 The tooling only seems to support linux platforms. Which stands to reason, its a linux package
 format. However, being the dedicated little canonical'ers that we are, we wanted snappy everywhere.
 Even if its only in a fake capacity to enable developers to cycle on their payload
