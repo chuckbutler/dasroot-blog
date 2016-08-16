@@ -39,14 +39,14 @@ jujusolutions/snapbox      onbuild     183830bb1b7b   4 hours ago     593.8 MB
 As you can see, snapbox comes in two flavors. `:latest` and `:onbuild`. These
 boxes have slightly different purposes, and different behavior characteristics.
 
-#### :latest
+#### snapbox:latest
 
 The latest image is intended to be a throw-away hermetically sealed REPL and
 debug environment for building snaps. It gives the user an Ubuntu Xenial host
 with `snapcraft` and `snapd` packages installed. Defaults to a non-root user,
 and has explicit instructions on use in the `README.md`.
 
-#### :onbuild
+#### snapbox:onbuild
 
 The onbuild image is intended to be a throw-away build-job oriented container
 that assumes its always doing a full build (prefixed by a clean), and assumes
