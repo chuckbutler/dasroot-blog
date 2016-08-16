@@ -1,5 +1,3 @@
-
-
 {{ range where (where .Site.Pages.ByDate.Reverse "Type" "posts") "Date.Unix" "<" .Date.Unix }}
   {{ if and (lt ($.Scratch.Get "related_matches") $.Site.Params.NumRelatedPosts) (ge (intersect $.Params.tags .Params.tags | len) 2) }}
     {{ if not ($.Scratch.Get "related_matches") }}
@@ -12,5 +10,4 @@
 {{ end }}
 {{ if $.Scratch.Get "related_matches" }}
 </ul>
-
 {{ end }}
