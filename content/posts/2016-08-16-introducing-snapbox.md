@@ -15,15 +15,15 @@ title: Snaps, Snaps Everywhere!
 I've been reading a lot of the buzz around Snappy as a packaging format. With the publication of
 great tooling like [Snapcraft](http://snapcraft.io) I was really feeling left out in the cold.
 The tooling only seems to support linux platforms. Which stands to reason, its a linux package
-format. However, being the dedicated little canonical'ers that we are, we wanted snappy everywhere.
+format. However, being the dedicated little Canonical'ers that we are, we wanted snappy everywhere.
 Even if its only in a fake capacity to enable developers to cycle on their payload
 packaging, run in CI, whatever the case may be. And since we already built a rather comprehensive
 workspace image for Juju, this was a real treat as an afternoon hack session.
 
 ## Snapbox! A box for all your snappyness
 
-Since we created [jujubox](https://hub.docker.com/r/jujusolutions/charmbox) we wanted
-an interactive shell to work and debug our snaps in. This is where `snapbox:latest`
+Since we created [charmbox](https://hub.docker.com/r/jujusolutions/charmbox) we wanted
+an interactive shell to work and debug our snaps in. This is where `snapbox`
 comes into play. You can pull the project down with `docker`.
 
 ```bash
@@ -106,7 +106,8 @@ However, notice at the top: `etcd_2.3.2_amd64.snap`
 
 How many hours have any of us spent writing build scripts for deb or rpm
 systems? With about 15 lines of yaml, we now have a reproduceable snap
-installable nearly everywhere (this was only built on an amd64 host.. keep in mind!).
+installable nearly everywhere (this was only built on an amd64 host.. keep in
+mind!).
 
 
 I hope this gives you some good insight into how quickly you can get started
